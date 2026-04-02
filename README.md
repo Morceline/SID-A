@@ -1,6 +1,6 @@
 # SID-A
 
-SID-A: Sistema Integrado Digital da Amazônia
+**SID-A: Sistema Integrado Digital da Amazônia**
 
 ## 📌 Descrição
 
@@ -18,7 +18,7 @@ Pequenos varejistas não possuem visibilidade sobre o transporte de mercadorias,
 
 ## 💡 Solução
 
-Sistema baseado em:
+****Sistema baseado em:**
 
 - registro de eventos de viagem
 - armazenamento offline
@@ -39,7 +39,7 @@ Sistema baseado em:
 - frontend/ → interface web
 - backend/ → API → simulação (script)
 - hardware/ → simulação do dispositivo  → conceitual
-- prototipo/ → design de interface
+- prototipo/ → design de interface, telas e UX (Figma)
 
 ## 🚀 Tecnologias (Planejadas)
 
@@ -50,7 +50,10 @@ Sistema baseado em:
 
 ## ⚙️ Configuração do Ambiente
 
-Pré-requisitos
+**Pré-requisitos**
+- Node.js 24.14.1
+- Python 3.14.3 
+- Visual Studio Code (editor recomendado)
 
 ## 📊 Status
 
