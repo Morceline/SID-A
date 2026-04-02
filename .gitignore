@@ -1,0 +1,13 @@
+# FRONTEND (React)
+node_modules/
+dist/
+build/
+
+# BACKEND (Python)
+__pycache__/
+*.pyc
+venv/
+
+# SISTEMA
+.DS_Store
+Thumbs.db
