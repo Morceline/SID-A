@@ -1,7 +1,7 @@
-# Simulação inicial do SID-A
+from fastapi import FastAPI
 
-def main():
-    print("SID-A backend em construção")
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+@app.get("/")
+def home():
+    return {"mensagem": "SID-A backend ativo (FastAPI)"}
