@@ -6,4 +6,3 @@ Tecnologia prevista:
 - React
 - Leaflet (mapas)
 
-Status: não iniciado

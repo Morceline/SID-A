@@ -55,6 +55,8 @@ Pequenos varejistas não possuem visibilidade sobre o transporte de mercadorias,
 - Python 3.14.3 
 - Visual Studio Code (editor recomendado)
 
+![Configuração de Ambiente](docs/assets/setup.png)
+
 ## 📊 Status
 
 Projeto em fase de modelagem (AV1)

@@ -1,6 +1,6 @@
 # Protótipo
 
-Contém o design das telas do sistema (Figma).
+Protótipos desenvolvidos no Figma
 
 Telas previstas:
 - login
