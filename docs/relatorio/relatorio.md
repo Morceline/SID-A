@@ -156,7 +156,7 @@ Se sua API cruzar a coordenada do ESP32 com dados de nível do rio (da ANA - Ag�
 
 - Privacidade: Níveis de Acesso. O varejista só vê a embarcação que contém a carga dele (vinculada pelo ID do pedido).
 
-Soluções inviáveis para o foco mas encontradas:
+Soluções inviáveis para o foco, mas encontradas:
 - 
  Baixo Custo: 
  Em vez de pagar mensalidade de satélite, o barco usa a rede LoRa gratuita.
