@@ -293,3 +293,53 @@ custo, acessibilidade e adaptação ao contexto.
 
 A opção por uma arquitetura Web-First e hardware dedicado na embarcação visa mitigar riscos operacionais comuns na região, como o roubo de dispositivos móveis e a baixa autonomia de bateria. Além disso, a segregação de dados por nível de privilégio é uma medida crítica de segurança para prevenir o monitoramento indevido de rotas por agentes externos, garantindo a integridade da carga e dos operadores.
 
+Fontes
+Foi separado em 3 tópicos a busca por artigos academicos:
+ Tecnologia de Conectividade
+
+ Contexto Regional
+
+ Redes Tolerantes a Atrasos
+
+ Mais precisamente:
+ - Contexto e Logística na Amazônia
+ - Tecnologias Atuais e Limitações
+ - Redes Tolerantes a Atrasos e Soluções
+ - Público Afetado e Impacto Social
+
+**Fontes:** 
+"Apesar da alta competitividade do frete hidroviário na Amazônia, custando apenas $8,00 por tonelada (MIRANDA; SILVA, 2023), a falta de digitalização e a baixa capilaridade logística impedem que pequenos operadores usufruam plenamente dessa eficiência."
+
+"Considerando que um único comboio hidroviário substitui mais de 1.600 caminhões (MIRANDA; SILVA, 2023), o monitoramento digital torna-se indispensável para gerir essa escala de carga e garantir que o modal hidroviário cumpra seu papel na redução da emissão de carbono conforme o Acordo de Paris."
+
+"A eficiência do monitoramento na Amazônia é condicionada pela sazonalidade hidrológica, onde o período de vazante exige adaptações estratégicas para evitar o desabastecimento (PEREIRA et al., 2025). O sistema proposto visa mitigar essa 'exclusão logística' ao fornecer dados de previsibilidade mesmo em vias desprovidas de infraestrutura formal de hidrovia."
+
+"A logística na região não enfrenta apenas distâncias, mas uma oscilação vertical de até 6 metros entre cheia e vazante (PORTO DE MANAUS, 2025). O SID-A justifica-se ao permitir que o monitoramento assíncrono registre como essa sazonalidade afeta o tempo de viagem (ETA), auxiliando na resiliência das comunidades frente a eventos extremos como a cheia histórica de 2021 (PEREIRA et al., 2025)."
+
+"Diferente das cadeias logísticas tradicionais, o modal amazônico é sensível à velocidade da correnteza e à falta de dados históricos (COSTA; PIRES, 2021). O SID-A propõe mitigar essa incerteza informacional através de uma arquitetura que integra o monitoramento de posição às variáveis sazonais, permitindo a transição de uma postura reativa para uma logística preditiva e resiliente (PEREIRA et al., 2025)."
+
+"O SID-A adota uma abordagem estruturada de monitoramento contínuo para evitar que riscos operacionais se transformem em crises logísticas (VASCONCELOS; BRITO, 2021). Através da análise de eventos detectados pelo hardware, o sistema prioriza alertas baseados na severidade e probabilidade, seguindo as diretrizes de ferramentas como o FMEA aplicadas ao contexto de IP4s amazônicas (PEREIRA et al., 2025)."
+
+"Como evidenciado pelo estudo de caso em Santa Isabel do Rio Negro, a logística fluvial amazônica opera sob um risco constante de isolamento geográfico e interrupção da navegabilidade (PEREIRA et al., 2025). O SID-A atua precisamente na mitigação desses riscos, fornecendo a visibilidade informacional necessária para que operadores e comunidades se adaptem à severa sazonalidade dos rios amazônicos."
+
+"A logística na Amazônia não é apenas uma questão de movimentação de carga, mas um instrumento de dignidade social para populações isoladas (CAVALCANTE et al., 2019). O SID-A busca honrar essa tradição de 'arte de organizar' ao propor uma coordenação integrada e tecnológica que reduza a distância entre produção e consumo em áreas de difícil acesso."
+
+"O transporte hidroviário na Amazônia não é apenas um modal de baixo custo, mas um setor em expansão que movimentou mais de 23 milhões de toneladas em 2021 (GUITARRA, 2024). Segundo a teoria da logística integrada, a eficiência desse fluxo depende da circulação bidirecional de informações entre o ponto de origem e o consumidor final (NOBRE, 2023), lacuna que o SID-A visa preencher."
+
+"A Amazônia concentra 80% das vias navegáveis exploradas do país, com mais de 16 mil quilômetros de extensão (MATOS, 2017). Contudo, a eficiência dessa vasta malha é limitada pela sinuosidade e pelo comportamento da vazante (COSTA; PADULA, 2009), evidenciando a necessidade de sistemas de monitoramento que auxiliem na navegação em trechos desprovidos de sinalização física."
+
+"A seca histórica de 2023, a pior em 121 anos (ESPINOZA et al., 2024), evidenciou a fragilidade do abastecimento na Amazônia, resultando em gastos emergenciais superiores a R$ 140 milhões em dragagens (BRASIL, 2023). O SID-A justifica-se como uma ferramenta de resiliência, permitindo monitorar o fluxo de mercadorias essenciais mesmo quando o calado reduzido força a descentralização do transporte para embarcações menores."
+
+"Apesar da projeção de investimentos do Novo PAC até 2026 (CASA CIVIL, 2024), a infraestrutura brasileira sofreu uma queda de 16,42% em relação ao PIB nas últimas duas décadas (OLIVEIRA, 2024). Nesse cenário de escassez, figuras como o 'Regatão' continuam sendo os principais elos de abastecimento em igarapés remotos (NETO; NOGUEIRA, 2019), tornando urgente a criação de soluções tecnológicas de baixo custo que tragam segurança a esses operadores."
+
+"O SID-A não visa apenas a eficiência logística, mas também a governança ambiental (ESG), uma vez que o descarte inadequado de efluentes e resíduos nas margens dos rios é um problema crônico do modal (MELO; MELO, 2023). Ao digitalizar o monitoramento, o sistema abre espaço para futuras integrações que fiscalizem e orientem práticas sustentáveis em trajetos de longa distância (ANTAQ, 2024)."
+
+"O SID-A atua no centro do paradoxo logístico amazônico: ao mesmo tempo que o modal fluvial é o mais econômico, ele é o mais vulnerável à insegurança e à falta de dados (MELO; MELO, 2023). Integrar o monitoramento assíncrono à agenda ESG do MPor (2024-2027) não é apenas uma inovação técnica, mas uma necessidade para garantir que a abundância natural dos rios se transforme em eficiência e segurança para o transportador e para o cidadão."
+
+"Como proposto por Taveira e Alves Neto (2025), o futuro da logística amazônica depende da integração de sistemas de rastreamento que permitam o ajuste operacional frente às crises climáticas. O SID-A materializa essa visão ao oferecer uma arquitetura resiliente que transforma o monitoramento de dados em uma ferramenta de planejamento estratégico para o transporte em águas rasas."
+
+"A escolha da tecnologia LoRa fundamenta-se na sua resiliência em zonas de silêncio digital, permitindo a criação de redes privadas sem dependência de operadoras (MILESI, 2025). O SID-A utiliza a modulação Chirp Spread Spectrum (CSS) com ajuste dinâmico de Spreading Factor para garantir que as coordenadas de rastreamento sejam preservadas mesmo em condições de baixa relação sinal-ruído típicas do modal fluvial."
+
+"Embora a transformação digital promova a sustentabilidade e a precisão na tomada de decisão (REINARTZ et al., 2019), sua implementação em pequenos operadores logísticos enfrenta barreiras como elevados custos iniciais e resistência cultural (GURUMURTHY; BHARTHUR, 2019). O SID-A propõe mitigar essas desigualdades tecnológicas (MELO, 2024) através de uma solução de baixo custo e interface intuitiva, focada na inclusão digital."
+
+"A arquitetura do SID-A baseia-se no modelo SMACIT (SEBASTIAN et al., 2017), integrando IoT e Mobile para superar a inércia tecnológica em pequenos operadores. Ao adotar uma cultura orientada por dados (KLEIN; TODESCO, 2020), o sistema não apenas rastreia cargas, mas promove o alinhamento estratégico e a competitividade de PMEs no modal hidroviário (ULAS, 2019)."
