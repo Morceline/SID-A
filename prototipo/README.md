@@ -78,7 +78,7 @@ Esta seção apresenta as telas comuns a todos os usuários da plataforma.
 
 | Login (Tema 1) | Login (Tema 2) | Cadastro (Tema 1) | Cadastro (Tema 2) |
 | :---: | :---: | :---: | :---: |
-| <img src="../docs/assets/images/tela_de_Cadastro_Mobile _op1.png" width="160"> | <img src="../docs/assets/images/tela_de_cadastro_mobile_op2.png" width="160"> | <img src="../docs/assets/images/tela_de_Cadastro_Mobile _op1.png" width="160"> | <img src="../docs/assets/images/tela_de_cadastro_mobile_op2.png" width="160"> |
+| <img src="../docs/assets/images/tela_de_Login_Mobile1.png" width="160"> | <img src="../docs/assets/images/tela_de_login_op2_Mobile.png" width="160"> | <img src="../docs/assets/images/tela_de_Cadastro_Mobile _op1.png" width="160"> | <img src="../docs/assets/images/tela_de_cadastro_mobile_op2.png" width="160"> |
 
 ---
 
