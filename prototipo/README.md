@@ -69,23 +69,6 @@ Para o administrador:
 - A sincronização DTN é simulada conceitualmente
 - O foco está na validação de interface e fluxo de uso
 
-## Telas do Sistema
-
-### 1. Tela de Login
-
-![Tela de Login Desktop - op1](../docs/assets/images/tela_de_Login_Desktop1.png)
-
-![Tela de Login Desktop - op2](../docs/assets/images/tela_de_login_op2_Desktop.png)
-
-![Tela de Login Mobile - op1](../docs/assets/images/tela_de_Login_Mobile1.png)
-
-![Tela de Login Mobile - op2](../docs/assets/images/tela_de_login_op2_Mobile.png)
-### 2. Dashboard
-[imagem]
-
-### 3. Encomendas
-[imagem]
-
 ### 📱 Experiência Principal do Usuário (Core Flows)
 
 Esta seção apresenta as telas comuns a todos os usuários da plataforma.
