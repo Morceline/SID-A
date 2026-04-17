@@ -18,7 +18,7 @@ Pequenos varejistas não possuem visibilidade sobre o transporte de mercadorias,
 
 ## 💡 Solução
 
-****Sistema baseado em:**
+***Sistema baseado em:***
 
 - registro de eventos de viagem
 - armazenamento offline
