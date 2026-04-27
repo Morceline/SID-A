@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from app.database.connection import Base, engine
 from app.models import viagem, evento
 #Importando as rotas
-from app.routes import eventos 
+from app.routes import eventos, auth
 
 # Cria as tabelas no banco de dados
 Base.metadata.create_all(bind=engine)
@@ -15,3 +15,5 @@ app.include_router(eventos.router)
 @app.get("/")
 def home():
     return {"mensagem": "SID-A rodando com banco"}
+
+app.include_router(auth.router, prefix="/auth", tags=["auth"])
