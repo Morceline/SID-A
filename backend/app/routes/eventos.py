@@ -1,23 +1,36 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from app.database.connection import SessionLocal
 from app.models.evento import Evento, Viagem
 from app.services.processamento import salvar_evento
 from app.services.processamento import detectar_anomalia, calcular_eta
+from app.services.deps import get_usuario_logado
 
 router = APIRouter()
 
 @router.post("/evento")
-def criar_evento(lat: float, lon: float, viagem_id: int = 1, tipo: str = "posicao"):
-    data = {
-        "lat": lat,
-        "lon": lon,
-        "viagem_id": viagem_id,
-        "tipo": tipo
+def criar_evento(
+    lat: float,
+    lon: float,
+    viagem_id: int,
+    tipo: str,
+    usuario = Depends(get_usuario_logado)
+):
+    db = SessionLocal()
+
+    evento = Evento(
+        viagem_id=viagem_id,
+        latitude=lat,
+        longitude=lon,
+        tipo=tipo
+    )
+
+    db.add(evento)
+    db.commit()
+
+    return {
+        "status": "evento salvo",
+        "usuario": usuario.nome
     }
-
-    salvar_evento(data)
-
-    return {"status": "evento salvo"}
 
 @router.get("/eventos")
 def listar_eventos():

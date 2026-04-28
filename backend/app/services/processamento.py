@@ -1,41 +1,45 @@
 from app.database.connection import SessionLocal
 from app.models.evento import Evento
+from app.services.analise import detectar_atraso, detectar_desvio
 
 def salvar_evento(data):
     db = SessionLocal()
+    try:
+        # 1. Criar o objeto conforme seu modelo
+        evento = Evento(
+            viagem_id=data["viagem_id"],
+            latitude=data["lat"],
+            longitude=data["lon"],
+            tipo=data.get("tipo", "posicao")
+        )
 
-    evento = Evento(
-        viagem_id=data["viagem_id"],
-        latitude=data["lat"],
-        longitude=data["lon"],
-        tipo=data.get("tipo", "posicao")
-    )
+        db.add(evento)
+        db.commit()
+        db.refresh(evento)
 
-    db.add(evento)
-    db.commit()
+        # Buscar histórico para análise 
+        eventos_da_viagem = db.query(Evento).filter(Evento.viagem_id == evento.viagem_id).all()
 
-    return evento
+        # Implementação solicitada
+        alertas = processar_evento(eventos_da_viagem)
 
-def detectar_anomalia(eventos):
-    if len(eventos) < 2:
-        return False
+        return {
+            "evento": evento,
+            "alertas": alertas
+        }
+    finally:
+        db.close()
 
-    ultimo = eventos[-1]
-    anterior = eventos[-2]
+def processar_evento(eventos):
+    alerta = []
 
-    # Regra: Duas paradas seguidas podem indicar um problema logístico ou de segurança
-    if ultimo.tipo == "parada" and anterior.tipo == "parada":
-        return True
+    atraso = detectar_atraso(eventos)
+    if atraso:
+        alerta.append(atraso)
 
-    return False
+    # Nota: rota_esperada vazia 
+    desvio = detectar_desvio(eventos, rota_esperada=[])
+    if desvio:
+        alerta.append(desvio)
 
-def calcular_eta(eventos):
-    if len(eventos) < 2:
-        return None
-
-    # Simples: quantidade de pontos restantes (simulado)
-    pontos_restantes = 10 - len(eventos)
-
-    velocidade_media = 1  # mock
-
-    return pontos_restantes / velocidade_media
+    return alerta

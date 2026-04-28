@@ -1,5 +1,6 @@
 from pydantic import BaseModel, EmailStr
 
+#SCHEMA (Pydantic) - Valida dados de entrada e saída do sistema
 class UsuarioCreate(BaseModel):
     nome: str
     email: EmailStr
